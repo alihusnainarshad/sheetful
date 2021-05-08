@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "env": {
+    "GOOGLE_API_KEY": "@sheetful_google_api_key"
+  },
+  "builds": [{ "src": "build/server.js", "use": "@now/node" }],
+  "routes": [{ "src": ".*", "dest": "build/server.js" }]
+}

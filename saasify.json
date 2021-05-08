@@ -1,0 +1,37 @@
+{
+  "name": "sheetful",
+  "openapi": "./dist/swagger.json",
+  "saas": {
+    "name": "Sheetful",
+    "heading": "**Turn your Google Sheet into an API**",
+    "subheading": "The power of a database with the simplicity of Google Sheets.",
+    "repo": "https://github.com/saasify-sh/sheetful",
+    "readme": "docs.md",
+    "theme": {
+      "name": "waves",
+      "buttonStyle": "rounded",
+      "color": "#ff6e6c",
+      "codeBlockDark": true
+    },
+    "sections": {
+      "pricing": {
+        "showMeteredBilling": false
+      },
+      "hero": {
+        "cta": "Get started for free"
+      }
+    }
+  },
+  "authProviders": {
+    "github": {
+      "enabled": false
+    },
+    "google": {
+      "enabled": true,
+      "scopes": ["https://www.googleapis.com/auth/spreadsheets"]
+    },
+    "default": {
+      "enabled": false
+    }
+  }
+}
